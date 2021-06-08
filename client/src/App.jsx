@@ -1,10 +1,10 @@
 import {
-  PostList,
-} from './components';
+  ViewExample
+} from './views';
 
 function App() {
   return (
-    <PostList />
+    <ViewExample />
   );
 }
 
