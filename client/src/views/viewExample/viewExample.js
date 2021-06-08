@@ -9,7 +9,7 @@ const viewExample = () => {
 
     return (
         <div className="parent">
-            <h1>Hi, I'm just an example :) follow me!</h1>
+            <h1>Hi, I'm just an example :) follow my flow!</h1>
             <PostList />
         </div>
     )
