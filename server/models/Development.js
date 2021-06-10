@@ -1,6 +1,6 @@
 const keystone = require('keystone');
 const { Name } = require('keystone/lib/fieldTypes');
-const Types = keystone.Field.Types;
+const { Types } = keystone.Field;
 
 const Development = new keystone.List('Development');
 
