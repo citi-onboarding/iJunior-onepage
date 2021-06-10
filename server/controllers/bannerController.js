@@ -3,7 +3,7 @@ const keystone = require('keystone');
 const Banner = keystone.list('Banner');
 
 module.exports = {
-  getPostController(req, res) {
+  getBannerController(req, res) {
     Banner.model.find((err, data) => {
       if (err) {
         console.log(err);
