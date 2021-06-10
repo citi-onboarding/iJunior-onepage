@@ -3,7 +3,7 @@ const keystone = require('keystone');
 const Development = keystone.list('Development');
 
 module.exports = {
-  getPostController(req, res) {
+  getDevelopmentController(req, res) {
     Development.model.find((err, data) => {
       if (err) {
         console.log(err);
