@@ -21,5 +21,6 @@ keystone.import('./models');
 
 keystone.set('routes', require('./routes/index'));
 keystone.set('postRoutes', require('./routes/postsRoutes'));
+keystone.set('developmentRoutes', require('./routes/developmentRoutes'));
 
 keystone.start();
