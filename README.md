@@ -1,57 +1,53 @@
-# How to run this boilerplate
-> A tutorial on how to create mongodb and cloudinary > accounts, install dependencies and run the project.
+# Projeto: Squad Shellyda </>
 
-## 1. Install dependencies
-Run `yarn install` or `npm install` on both client and server folders, this command will install the project's dependencies.
+## Quem é nosso cliente? 
 
-## 2. Create MongoDB cluster and get the url
-1. If you don't have one, [create a mongodb account](https://www.mongodb.com/cloud), then create the cluster for this project.
+É a iJunior, empresa júnior do departamento de Ciências da Computação da UFMG, que desenvolve dois tipos de soluções digitais: **iJunior Start** e **iJunior Loop**.
 
-2. On the cluster's screen, go to **Database Access > Database Users > Add New Database User**, then create the user (remember the username and password, we're going to need them later).
+## E o nosso projeto? 
 
-3. Now go to **Network Access > Ip Whitelist > Add IP Adress > Current Ip Adress**, to add your current ip address to the cluster's whitelist, you will need to do this with every source that will access your database.
+Nosso trabalho é desenvolver um OnePage para apresentar o produto **iJunior Loop**, que é uma solução voltada para a criação de Aplicações Web com desenvolvimento em módulos. O objetivo principal do projeto é a captação de clientes, e ele deve apresentar o projeto de forma objetiva e que traga valor ao usuário.
 
-4. The mongo url will be:
+## E quais são as tecnologias utilizadas?
 
-    mongodb://[USER]:[PASSWORD]@[SHARD_URL]/[DB_NAME]?ssl=true&replicaSet=[SHARD_NAME]&authSource=admin&retryWrites=true&w=majority
+- JavaScript
+- HTML
+- CSS
+- MongoDB
+- Keystone
+- Node Js
 
-## 3. Create cloudinary account
-1. Go to [cloudinary images website](https://cloudinary.com/) and create an account.
+## Como vamos rodar o projeto?
 
-2. Under the **Account Details** section is a url named **API environment variable** this is your cloudinary url.
+O projeto foi dividido em algumas etapas. São elas:
 
-## 4. Create a env file
-Create a file named `.env` and, inside of it, place this:
+1. Produção do *wireframe*, seguida por sua validação;
+2. Produção do *mockup de alta fidelidade*, seguida por sua validação;
+3. *Sprint 1 de desenvolvimento*, onde será feita a estruturação do back-end;
+4. *Sprint 2 de desnvolvimento*, onde será feita a componentização do front-end;
+5. *Sprint 3 de desenvolvimento*, cujos objetivos são integração e deploy;
+6. *Entrega final do projeto*;
 
-    PORT=[PORT]
-    MONGO_URI=[MONGO_URI]
-    COOKIE_SECRET=[COOKIE_SECRET]
-    CLOUDINARY_URL=[CLOUDINARY_URL]
+As atividades são divididas entre os membres, que se encontram diariamente para alinhamento no projeto. Cada issue possui prazo e é marcada por tags específicas (por ordem de prioridade por exemplo), e a organização é pelo Notion e GitHub! 
 
-Where:
-- [PORT] is which port you want the server to run on (usually 3001)
-- [MONGO_URI] is the uri you got from [step 2.3](##-2.-create-mongodb-cluster-and-get-the-url)
-- [COOKIE_SECRET] is a random string used for authentication on the admin.
-- [CLOUDINARY_URL] is the url you got from [step 3.2](##3.-create-cloudinary-account)
+### Ah, e [esse aqui](https://www.notion.so/citiufpe/Squad-Shellyda-7685d1b80c0e4f589feeaba891aecd31) é o Nosso Notion!
 
-## 5. Running in development
-To run this project in development mode, we will need to run two servers, the react one on `/client` and keystone on `/server`.
+## Quais são os padrões utilizados para branches e commits?
 
-The command to run react is `yarn start` or `npm start` depending on which tool was used on [installation](##1.-install-dependencies), the react server will run on port `3000` by default.
+- Para nomeação das branchs, usamos tags específicas (bugfix e feature) antes da barra no seu nome. Após a barra, especificamos o detalhamento da branch. Esses nomes devem estar em inglês.
+- São duas branches principais: main (produção) e develop (desenvolvimento).
+- Para nomeação dos commits, também utilizamos as tags feature e bugfix. A estrutura é a seguinte: Feature(branch-name): Description; ou Bugfix(branch-name): Description; Os commits também prcisam estar em inglês.
 
-Before running the keystone server, go to `/server/updates/0.0.1-admin.js` and change the admin user as you want, this user will be the first created, but you will be able to create others and delete this one later.
+## Quem somos?
 
-To run keystoneJS server, use the command `node index.js`, the server will run on whatever port is in the variale in the env file, you will find the admin interface in `http://localhost:[PORT]/admin`
+Giovanna Farias (UX/UI Designer);
 
-## 6. Running in production
-To run the server in production, go to `/client` and run the command `yarn server`, this command will create a `react production optimized build` and move it to `/server`.
+[Shellyda Barbosa](https://github.com/Shellyda) (Gerente de Software);
 
-Then go to `/server` and run `node index.js`, you will find the project on `http://localhost:[PORT]`
+[Igor Phillipe](https://github.com/IgrPhillipe) (Analista de Software);
 
-- - -
+[Mauricio Felipe](https://github.com/MauricioFGF%22%3E) (Dev);
 
-#### Developed by [Jorrmungandr](https://github.com/Jorrmungandr)
+[Maria Carolina](https://github.com/CarolinaBerrafato) (Dev);
 
-This boilerplate was meant to be used in [CITi's](https://github.com/CITi-UFPE) selective process on 2020.1, to help the development of onepage websites.
-
-- - -
+> Don´t forget to "Bee you" <3
