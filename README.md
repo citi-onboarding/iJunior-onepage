@@ -16,6 +16,7 @@ Nosso trabalho é desenvolver um OnePage para apresentar o produto **iJunior Loo
 - MongoDB
 - Keystone
 - Node Js
+- React Js
 
 ## Como vamos rodar o projeto?
 
@@ -36,7 +37,7 @@ As atividades são divididas entre os membres, que se encontram diariamente para
 
 - Para nomeação das branchs, usamos tags específicas (bugfix e feature) antes da barra no seu nome. Após a barra, especificamos o detalhamento da branch. Esses nomes devem estar em inglês.
 - São duas branches principais: main (produção) e develop (desenvolvimento).
-- Para nomeação dos commits, também utilizamos as tags feature e bugfix. A estrutura é a seguinte: Feature(branch-name): Description; ou Bugfix(branch-name): Description; Os commits também prcisam estar em inglês.
+- Para nomeação dos commits, também utilizamos as tags feature e bugfix. A estrutura é a seguinte: Feature(branch-name): Description; ou Bugfix(branch-name): Description; Os commits também precisam estar em inglês.
 
 ## Quem somos?
 
