@@ -1,10 +1,10 @@
 const keystone = require('keystone');
 
-const modDelivery = keystone.list('modDelivery');
+const Send = keystone.list('Send');
 
 module.exports = {
-  getModDeliveryController(req, res) {
-    ModDelivery.model.find((err, data) => {
+  getSendController(req, res) {
+    Send.model.find((err, data) => {
       if (err) {
         console.log(err);
         res.status(500).send('DB Error');
