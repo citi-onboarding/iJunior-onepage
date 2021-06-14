@@ -1,14 +1,14 @@
-# Projeto: Squad Shellyda </>
+# Project: Squad Shellyda </>
 
-## Quem é nosso cliente? 
+## Who's our client? 
 
-É a iJunior, empresa júnior do departamento de Ciências da Computação da UFMG, que desenvolve dois tipos de soluções digitais: **iJunior Start** e **iJunior Loop**.
+It's iJunior, junior company in the Computer Science Department at UFMG, which develops two types os digital solutions: **iJunior Start** and **iJunior Loop**.
 
-## E o nosso projeto? 
+## What about our project? 
 
-Nosso trabalho é desenvolver um OnePage para apresentar o produto **iJunior Loop**, que é uma solução voltada para a criação de Aplicações Web com desenvolvimento em módulos. O objetivo principal do projeto é a captação de clientes, e ele deve apresentar o projeto de forma objetiva e que traga valor ao usuário.
+Our job is to develop an OnePage Website to present the product **iJunior Loop**, which is a solution aimed at create Web Aplications with module development. The main objective of the project is to attract customers, and it must present the product in an objective way that brings value to the user.
 
-## E quais são as tecnologias utilizadas?
+## Which technologies do we use?
 
 - JavaScript
 - HTML
@@ -18,37 +18,37 @@ Nosso trabalho é desenvolver um OnePage para apresentar o produto **iJunior Loo
 - Node Js
 - React Js
 
-## Como vamos rodar o projeto?
+## How are we going to run the project?
 
-O projeto foi dividido em algumas etapas. São elas:
+The project was divided into a few stages:
 
-1. Produção do *wireframe*, seguida por sua validação;
-2. Produção do *mockup de alta fidelidade*, seguida por sua validação;
-3. *Sprint 1 de desenvolvimento*, onde será feita a estruturação do back-end;
-4. *Sprint 2 de desnvolvimento*, onde será feita a componentização do front-end;
-5. *Sprint 3 de desenvolvimento*, cujos objetivos são integração e deploy;
-6. *Entrega final do projeto*;
+1. *Wireframe* production, followed by its validation;
+2. *High fidelity mockup*, followed by its validation;
+3. *Development Sprint 1*, where the back-end will be structured;
+4. *Development Sprint 2*, where the front-end will be componentized;
+5. *Development Sprint 3*, whose main goals are integration and deploy;
+6. *Final project delivery*;
 
-As atividades são divididas entre os membres, que se encontram diariamente para alinhamento no projeto. Cada issue possui prazo e é marcada por tags específicas (por ordem de prioridade por exemplo), e a organização é pelo Notion e GitHub! 
+The activities are divided among the members, who concentrate daily for alignment in the project. Each issue has a deadline and is marked by specific tags (in order of priority, for example), and the organization is by Notion and GitHub!
 
-### Ah, e [esse aqui](https://www.notion.so/citiufpe/Squad-Shellyda-7685d1b80c0e4f589feeaba891aecd31) é o Nosso Notion!
+### Oh, and [this one](https://www.notion.so/citiufpe/Squad-Shellyda-7685d1b80c0e4f589feeaba891aecd31) is our Notion!
 
-## Quais são os padrões utilizados para branches e commits?
+## Which are the defaults used for branches and commits?
 
-- Para nomeação das branchs, usamos tags específicas (bugfix e feature) antes da barra no seu nome. Após a barra, especificamos o detalhamento da branch. Esses nomes devem estar em inglês.
-- São duas branches principais: main (produção) e develop (desenvolvimento).
-- Para nomeação dos commits, também utilizamos as tags feature e bugfix. A estrutura é a seguinte: Feature(branch-name): Description; ou Bugfix(branch-name): Description; Os commits também precisam estar em inglês.
+- For branches appointments, we use specific tags (bugfix e feature) before the slash in your name. After the slash, we specify the branch detail. These names must be in english.
+- There are two main branches: main (production) and develop (development).
+- For commits appointments, we also use feature and bugfix tags. The structure is as follows: Feature(branch-name): Description; or Bugfix(branch-name): Description; Commits must be in english too.
 
-## Quem somos?
+## Who are we?
 
 Giovanna Farias (UX/UI Designer);
 
-[Shellyda Barbosa](https://github.com/Shellyda) (Gerente de Software);
+[Shellyda Barbosa](https://github.com/Shellyda) (Software Manager);
 
-[Igor Phillipe](https://github.com/IgrPhillipe) (Analista de Software);
+[Igor Phillipe](https://github.com/IgrPhillipe) (Software Analyst);
 
 [Mauricio Felipe](https://github.com/MauricioFGF%22%3E) (Dev);
 
 [Maria Carolina](https://github.com/CarolinaBerrafato) (Dev);
 
-> Don´t forget to "Bee you" <3
+> Don't forget to "Bee you" <3
