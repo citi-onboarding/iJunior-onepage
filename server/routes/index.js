@@ -4,7 +4,7 @@ const cors = require('cors');
 const bannerController = require('../controllers/bannerController');
 const developmentController = require('../controllers/developmentController');
 const postController = require('../controllers/postController');
-const MDeliveryController = require('../controllers/mDeliveryController');
+const mDeliveryController = require('../controllers/mDeliveryController');
 
 module.exports = (app) => {
   app.use(cors());
@@ -19,7 +19,7 @@ module.exports = (app) => {
 
   app.get('/api/development', developmentController.getDevelopmentController);
 
-  app.get('/api/mDelivery', MDeliveryController.getMDeliveryController);
+  app.get('/api/mdelivery', mDeliveryController.getMDeliveryController);
 
   app.get('*', (req, res) => {
     res.redirect('/');
