@@ -1,1 +1,1 @@
-export { default as ViewExample } from './viewExample';
+export { default as Banner } from './Banner';

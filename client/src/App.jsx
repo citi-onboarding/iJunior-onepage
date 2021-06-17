@@ -1,10 +1,8 @@
-import {
-  ViewExample
-} from './views';
+import {Banner} from "./views"
 
 function App() {
   return (
-    <ViewExample />
+    <Banner/>
   );
 }
 
