@@ -1,10 +1,10 @@
 import {
-  ViewExample
+  Footer
 } from './views';
 
 function App() {
   return (
-    <ViewExample />
+    <Footer />
   );
 }
 

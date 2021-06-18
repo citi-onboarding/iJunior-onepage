@@ -1,0 +1,39 @@
+@media (max-width: 700px) {
+    .footer-button-p{
+        font-size: 16.5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer{
+        padding: 0 20px;
+    }
+    .footer-button{
+        justify-content: flex-end;
+    }
+    .footer-button-p{
+        margin-bottom: 26px;
+        font-size: 8px;
+    }
+    .footer-left{
+        position: static;
+        align-items: center;
+    }
+    .footer-left img{
+        width: 100px;
+        height: 90.90px;
+    }
+    .button-scroll-top{
+        width: 80px;
+        height: 53px;
+        bottom: 75px;
+        border-radius: 20px;
+    }
+    .button-scroll-top p{
+        font-size: 7px;
+    }
+    .button-scroll-top img{
+        width: 16.7px;
+        height: 20px;
+    }
+}
