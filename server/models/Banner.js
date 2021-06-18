@@ -6,7 +6,7 @@ const Banner = new keystone.List('Banner');
 
 Banner.add({
     title: {
-        type: Types.Text,
+        type: Types.CloudinaryImage,
         require: true,
         initial:true,
         label: "Título do Banner",
@@ -18,7 +18,7 @@ Banner.add({
         label:"Texto do Banner"
       },
     imageBanner:{
-        type: Types.CloudinaryImages,
+        type: Types.CloudinaryImage,
         require: true,
         initial:true,
         label: "Imagem do Banner",
