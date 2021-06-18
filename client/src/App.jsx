@@ -1,10 +1,10 @@
 import {
-  ViewExample
+  AboutUs
 } from './views';
 
 function App() {
   return (
-    <ViewExample />
+    <AboutUs />
   );
 }
 

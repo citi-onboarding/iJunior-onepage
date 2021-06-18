@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.aboutUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    margin-bottom: 20px;
+    font-size: 30px;
+    color:#23C7D7;
+    font-weight: 600;
+}
+
+.description{
+    width: 83px;
+    height: 53px;
+    font-size: 12px;
+    text-align: left;
+}
