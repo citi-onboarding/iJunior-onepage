@@ -21,7 +21,7 @@ const Footer = () => {
                         <img src={Seta}></img>
                         <p>Volta para o topo</p>
                     </div>
-                    <p className="footer-button-p" >Made ❤ and &lt;/&gt; by CITI</p>
+                    <p className="footer-button-p" >Made with ❤ and &lt;/&gt; by CITI</p>
                 </div>
             </div>
         </div>
