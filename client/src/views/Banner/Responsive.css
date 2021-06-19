@@ -12,9 +12,10 @@
         height: 80px;
     }
 
-    .lineNav{
+    #nav-link{
         display: none;
     }
+    
     .nav-options {
         display: flex;
         height: calc(100vh - 70px);

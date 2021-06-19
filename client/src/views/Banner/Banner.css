@@ -34,8 +34,8 @@
 }
 
 .logo {
-    width: 110px;
-    height: 110px;
+    width: 8.05vw;
+    height: 8.05vw;
 }
 
 .nav-options{
@@ -47,6 +47,18 @@
     grid-template-columns: repeat(6, auto);
     grid-gap: 1.8vw;
     list-style-type: none;
+}
+
+#nav-link{
+    display: flex;
+    position: absolute;
+    left: 23.4vw;
+    top:63px;
+    width: 7.863vw;
+    height: 6px;
+    background: transparent linear-gradient(90deg, #0D7EA6 0%, #5CCCF1 25%, #58CEF4 50%, #32BFEC 75%, #0B98C6 100%) 0% 0% no-repeat padding-box;
+    border-radius: 15px 15px 9px 9px;    
+    transition: all 0.5s ease;
 }
 
 .option{
@@ -66,15 +78,6 @@
 
 .option.wave{
     display: none;
-}
-
-.lineNav{
-    position: relative;
-    top:17px;
-    height: 5px;
-    width: 100%;
-    background: transparent linear-gradient(90deg, #0D7EA6 0%, #5CCCF1 25%, #58CEF4 50%, #32BFEC 75%, #0B98C6 100%) 0% 0% no-repeat padding-box;
-    border-radius: 15px 15px 9px 9px;
 }
 
 .mobile-menu {
