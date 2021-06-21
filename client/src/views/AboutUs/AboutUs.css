@@ -71,4 +71,33 @@
     top: 40%;
 }
 
+.slick-dots li{
+    width: 17px;
+    height: 17px;
+    margin: 0 5px;
+    padding: 0;
+}
+.slick-dots li button{
+    padding: 0 !important;
+    width: 17px;
+    height: 17px;
+    background-color: white;
+    border: 1px solid #000000;
+    border-radius: 17px;
+}
+
+
+.slick-dots li button:before{
+    font-size: 17px;
+    line-height: 20px;
+    content: " ";
+    width: 17px;
+    height: 17px;
+    border-radius: 17px;  
+}
+
+.slick-dots li.slick-active button:before{
+    background-color: black;
+}
+
 
