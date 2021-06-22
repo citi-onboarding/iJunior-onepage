@@ -5,55 +5,103 @@ const Contact = new keystone.List('Contact');
 
 Contact.add({
     firstCard: {
-        title: {
-            type: Types.Text,
-            require: true,
-            initial: true,
-            label: "Título do primeiro cartão"
+        topicOne: {
+            title: {
+                type: Types.Text,
+                require: true,
+                initial: true,
+                label: "Título do primeiro cartão"
+            },
+            logos: {
+                type: Types.CloudinaryImages,
+                require: true,
+                initial: true,
+                label: "Logos das redes sociais"
+            },
+            links: {
+                type: Types.Url,
+                require: true,
+                initial: true,
+                label: "Links das redes sociais"
+            },
         },
-        logos: {
-            type: Types.CloudinaryImages,
-            require: true,
-            initial: true,
-            label: "Logos das redes sociais"
+        topicTwo: {
+            title: {
+                type: Types.Text,
+                require: true,
+                initial: true,
+                label: "Título do segundo tópico"
+            },
+            logos: {
+                type: Types.CloudinaryImages,
+                require: true,
+                initial: true,
+                label: "Logo do segundo tópico"
+            },
+            links: {
+                type: Types.Url,
+                require: true,
+                initial: true,
+                label: "Link correspondente"
+            },
         },
-        links: {
-            type: Types.Url,
-            require: true,
-            initial: true,
-            label: "Links das redes sociais"
+        topicThree: {
+            title: {
+                type: Types.Text,
+                require: true,
+                initial: true,
+                label: "Título do terceiro tópico"
+            },
+            logos: {
+                type: Types.CloudinaryImages,
+                require: true,
+                initial: true,
+                label: "Logo do terceiro tópico"
+            },
+            links: {
+                type: Types.Url,
+                require: true,
+                initial: true,
+                label: "Link correspondente"
+            },
+        },
+        topicFour: {
+            title: {
+                type: Types.Text,
+                require: true,
+                initial: true,
+                label: "Título do quarto tópico"
+            },
+            logos: {
+                type: Types.CloudinaryImages,
+                require: true,
+                initial: true,
+                label: "Logo do quarto tópico"
+            },
+            links: {
+                type: Types.Url,
+                require: true,
+                initial: true,
+                label: "Link correspondente"
+            },
         },
     },
     secondCard: {
-        title: {
-            type: Types.Text,
-            require: true,
-            initial: true,
-            label: "Título do segundo cartão"
-        },
-        inputs: {
+        options: {
             name: {
-                type: Types.Name,
-                require: true,
-                initial: true,
+                type: Types.Text,
                 label: "Nome do usuário"
             },
             phone: {
-                type: Types.Number,
-                require: true,
-                initial: true,
+                type: Types.Text,
                 label: "Número do usuário"
             },
             email: {
-                type: Types.Email,
-                require: true,
-                initial: true,
+                type: Types.Text,
                 label: "E-mail do usuário"
             },
             message: {
                 type: Types.Text,
-                require: true,
-                initial: true,
                 label: "Mensagem do usuário"
             }
         }
