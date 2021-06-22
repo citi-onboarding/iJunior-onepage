@@ -88,21 +88,29 @@ Contact.add({
     },
     secondCard: {
         options: {
-            name: {
+            topicOne: {
                 type: Types.Text,
-                label: "Nome do usuário"
+                require: true,
+                initial: true,
+                label: "Informação do usuário"
             },
-            phone: {
+            topicTwo: {
                 type: Types.Text,
-                label: "Número do usuário"
+                require: true,
+                initial: true,
+                label: "Informação do usuário"
             },
-            email: {
+            topicThree: {
                 type: Types.Text,
-                label: "E-mail do usuário"
+                require: true,
+                initial: true,
+                label: "Informação do usuário"
             },
-            message: {
+            topicFour: {
                 type: Types.Text,
-                label: "Mensagem do usuário"
+                require: true,
+                initial: true,
+                label: "Informação do usuário"
             }
         }
     }
