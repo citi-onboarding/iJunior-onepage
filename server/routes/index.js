@@ -5,6 +5,7 @@ const bannerController = require('../controllers/bannerController');
 const developmentController = require('../controllers/developmentController');
 const postController = require('../controllers/postController');
 const mDeliveryController = require('../controllers/mDeliveryController');
+const analysisController = require('../controllers/analysisController');
 const aboutUsController = require('../controllers/aboutUsController');
 
 module.exports = (app) => {
@@ -23,6 +24,8 @@ module.exports = (app) => {
   app.get('/api/development', developmentController.getDevelopmentController);
 
   app.get('/api/mdelivery', mDeliveryController.getMDeliveryController);
+
+  app.get('/api/analysis', analysisController.getAnalysisController);
 
 
   app.get('*', (req, res) => {
