@@ -49,14 +49,14 @@
     justify-content: center;
 }
 
-.teste{
+.background-image{
     position: relative;
     opacity: 0.08;
     height: 300px;
     width: 0%;
 }
 
-.teste img{
+.background-image img{
     position: relative;
     right: 750px;
     top: 15vw;

@@ -90,7 +90,7 @@ const AboutUs = () => {
                 <p className="description">{cardCarousel.text}</p>
             </div>
             <div className="carousel">
-                <div className="teste">
+                <div className="background-image">
                     {Square? 
                         <><img src={square} alt="background form"/></>
                         : <><img src={forma3} alt="background form"/></>
