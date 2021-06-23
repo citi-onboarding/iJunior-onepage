@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import './Banner.css';
-import './Responsive.css';
-import Logo from "../../images/Logo.png"
+import './BannerResponsive.css';
+import Logo from "../../images/logo.png"
 import {Button} from "../../components"
 const Banner = () => {
 
@@ -71,7 +71,7 @@ const Banner = () => {
             <div className= "header">
                 <div className="nav">
                     <div className="logo-container">
-                        <img className="logo" src={Logo}/>
+                        <img className="logo" src={Logo} alt="logo"/>
                     </div>
                     <ul className={click ? "nav-options active" : "nav-options"}>
                         <li className="option">
@@ -119,7 +119,7 @@ const Banner = () => {
             <div>
                 <div id="banner">
                     <div className="banner-text">
-                        <img src={banners.title}/>
+                        <img src={banners.title} alt="logo iJunior Loop"/>
                         <p>{banners.text}</p>
                         <div className="button">
                             <Button text = "Entre em Contato" Width={158} Height = {44}/>

@@ -100,7 +100,8 @@
     }
 
     #banner{
-        height:calc(100vh - 74px);
+        min-height: 600px;
+        height:calc(80vh - 74px);
         padding: 0;
     }
 
@@ -129,9 +130,19 @@
 }
 
 @media (max-width: 480px) {
+    #banner{
+        min-height: 600px;
+        height:calc(80vh - 74px);
+        padding: 0;
+    }
+
     .button,.banner-text p {
         position: relative;
-        left: calc(50vw - 115px);
-        top: 20vh;
+        left: 15vw;
+        top: 150px;
+    }
+
+    .banner-text{
+        margin-left: 10vw;
     }
 }
