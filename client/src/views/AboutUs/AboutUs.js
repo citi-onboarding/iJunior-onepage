@@ -8,23 +8,34 @@ import forma3 from "../../images/forma3.png"
 import square from "../../images/square.png"
 
 const AboutUs = () => {
-    window.onload=()=>{
-        if (document.body.clientWidth<480){
-            setSquare(true)
-        } else{setSquare(false)}
-    }
-    window.onresize = ()=>{
+    const [Square, setSquare] = useState(false)
+
+    const loadButtonResponsive=()=>{
         var screen = document.body.clientWidth
         const ContDots = document.querySelectorAll(".slick-dots li").length - 2
-        if(screen <480){
+        if (screen<480 && document.querySelector(".next")){
             setSquare(true)
             var calculo = 45 - (ContDots * 3.5)
             document.querySelector(".next").style.right = calculo + "vw"
             document.querySelector(".prev").style.left = calculo + "vw"
-        } else{
-            setSquare(false)
-            document.querySelector(".next").style.right = "-5%"
-            document.querySelector(".prev").style.left = "-5%"
+        }
+        console.log(ContDots)
+    }
+
+    window.onresize = ()=>{
+        if ( document.querySelector(".next")){
+            var screen = document.body.clientWidth
+            const ContDots = document.querySelectorAll(".slick-dots li").length - 2
+            if(screen <480){
+                setSquare(true)
+                var calculo = 45 - (ContDots * 3.5)
+                document.querySelector(".next").style.right = calculo + "vw"
+                document.querySelector(".prev").style.left = calculo + "vw"
+            } else{
+                setSquare(false)
+                document.querySelector(".next").style.right = "-5%"
+                document.querySelector(".prev").style.left = "-5%"
+            }
         }
     }
 
@@ -69,13 +80,11 @@ const AboutUs = () => {
         setCardCarousel(carousel)
     };
 
-    const [Square, setSquare] = useState(false)
-
     useEffect(() => {
         LoadCarousel();
     }, []);
     return (  
-        <div className="aboutUs">
+        <div className="aboutUs" onLoad={loadButtonResponsive}>
             <div className="aboutUs-text">
                 <h1 className="title">Conheça nossa História</h1>
                 <p className="description">{cardCarousel.text}</p>
@@ -98,5 +107,6 @@ const AboutUs = () => {
         </div>         
     )
 }
+
 
 export default AboutUs;

@@ -45,11 +45,9 @@
         font-size: 23px !important;
     }
     .next {
-        right: 40vw;
         top: 55.3vw;
     } 
     .prev {
-        left: 40vw;
         top: 55.3vw;
     }
     .slick-dots li{
