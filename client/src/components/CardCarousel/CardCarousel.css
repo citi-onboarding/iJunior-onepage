@@ -25,9 +25,10 @@
 }
 
 .card-carousel p{
+  margin: 0 20px;
   opacity: 1;
   margin-top:0;
-  font-size: 36.61%;
+  font-size: 52.61%;
 }
 
 .card-carousel h5{

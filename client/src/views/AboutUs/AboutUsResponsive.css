@@ -23,6 +23,9 @@
         width: 2vw;
         height:2vw;
     }
+    .teste img{
+        top: 10vw !important;
+    }
 }   
 
 @media (max-width: 480px) {
@@ -42,9 +45,11 @@
         font-size: 23px !important;
     }
     .next {
+        right: 40vw;
         top: 55.3vw;
     } 
     .prev {
+        left: 40vw;
         top: 55.3vw;
     }
     .slick-dots li{
@@ -60,6 +65,17 @@
     .slick-dots li button:before{
         width: 3vw;
         height:3vw;
+    }
+    .teste {
+        opacity: 1;
+        top: 200px;
+    }
+    .teste img{
+        position: relative;
+        left: 10px;
+        top: 100px;
+        width: 100px;
+        min-width: 0;
     }
 
 }
@@ -78,7 +94,7 @@
         margin-top: 3.35px;
         font-size: 18px !important;
     }
-
-
-
+    .teste img{
+        left: -10px;
+    }
 }

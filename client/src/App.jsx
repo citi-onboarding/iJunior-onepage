@@ -4,7 +4,9 @@ import {
 
 function App() {
   return (
-    <AboutUs />
+    <>
+      <AboutUs/>
+    </>
   );
 }
 

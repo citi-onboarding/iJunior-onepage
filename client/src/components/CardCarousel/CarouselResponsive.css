@@ -12,8 +12,8 @@
         font-size: 15px;
     }
     .card-carousel p{
-        margin: 0 5px;
-        font-size: 10px;
+        margin: 0 10px;
+        font-size: 12px;
     }   
 }
 
@@ -21,11 +21,16 @@
     .card-carousel{
         border-radius: 25px;
     }
+    .card-carousel img{
+        width: 45%;
+        height: 28.32%;
+        margin-bottom: 10px;
+    }
     .card-carousel h5{
         font-size: 12px;
     }
     .card-carousel p{
-        font-size: 8px;
+        font-size: 10px;
     }
 }
 
@@ -40,26 +45,20 @@
         opacity: 1;
     }
     .card-carousel h5{
-        font-size: 11px;
+        font-size: 13px;
     }
     .card-carousel p{
-        font-size: 8px;
-    }
-
-    .card-carousel img{
-        width: 55%;
-        height: 35.32%;
-        margin-bottom: 10px;
+        font-size: 10.5px;
     }
 }
 
 
 @media (max-width: 280px) {
     .card-carousel h5{
-        font-size: 6px;
+        font-size: 11px;
     }
     .card-carousel p{
-        font-size: 3px;
+        font-size: 8px;
     }
     .card-carousel img{
         width: 35%;

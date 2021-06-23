@@ -9,7 +9,8 @@
 
 .aboutUs{
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
+    min-height: 900px;
     background-color: #96E4EC;
     overflow: hidden;
     display: flex;
@@ -38,7 +39,7 @@
     margin-bottom: 30px;
     width: 150px;
     font-size: 12px;
-    text-align: left;
+    text-align: center;
 }
 
 .carousel{
@@ -46,6 +47,21 @@
     padding-bottom: 40px;
     display: flex;
     justify-content: center;
+}
+
+.teste{
+    position: relative;
+    opacity: 0.08;
+    height: 300px;
+    width: 0%;
+}
+
+.teste img{
+    position: relative;
+    right: 750px;
+    top: 15vw;
+    width: 60vw;
+    min-width: 1000px;
 }
 
 .carousel-list{
