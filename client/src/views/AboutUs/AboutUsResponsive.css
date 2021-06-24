@@ -1,0 +1,98 @@
+@media (max-width: 950px) {
+    .carousel-list{
+        width: 75%;
+    }
+    .title{
+        font-size: 25px;
+    }
+    .description{
+        font-size: 10px;
+    }
+
+    .slick-dots li{
+        width: 2vw;
+        height: 2vw;
+        margin: 0 1vw ;
+    }
+    .slick-dots li button{
+        width: 2vw;
+        height: 2vw;
+
+    }
+    .slick-dots li button:before{
+        width: 2vw;
+        height:2vw;
+    }
+    .background-image img{
+        top: 10vw !important;
+    }
+}   
+
+@media (max-width: 480px) {
+    .carousel-list{
+        width: 120%;
+    }
+    .title{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .description{
+        width: 110px;
+        font-size: 9px;
+        margin-bottom: 10px;
+    }
+    .arrow.next h2,.arrow.prev h2 {
+        font-size: 23px !important;
+    }
+    .next {
+        top: 55.3vw;
+    } 
+    .prev {
+        top: 55.3vw;
+    }
+    .slick-dots li{
+        width: 3vw;
+        height: 3vw;
+        margin: 0 1vw ;
+    }
+    .slick-dots li button{
+        width: 3vw;
+        height: 3vw;
+
+    }
+    .slick-dots li button:before{
+        width: 3vw;
+        height:3vw;
+    }
+    .background-image {
+        opacity: 1;
+        top: 200px;
+    }
+    .background-image img{
+        position: relative;
+        left: 10px;
+        top: 100px;
+        width: 100px;
+        min-width: 0;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .title{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .description{
+        width: 80px;
+        font-size: 7px;
+        margin-bottom: 10px;
+    }
+    .arrow.next h2,.arrow.prev h2 {
+        margin-top: 3.35px;
+        font-size: 18px !important;
+    }
+    .background-image img{
+        left: -10px;
+    }
+}

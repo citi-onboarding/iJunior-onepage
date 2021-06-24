@@ -1,9 +1,11 @@
-import {Banner, Footer} from "./views"
+import {Banner, AboutUs, Footer, Development} from "./views"
 
 function App() {
   return (
     <>
       <Banner/>
+      <Development/> 
+      <AboutUs/>
       <Footer/>
     </>
   );

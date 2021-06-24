@@ -20,7 +20,7 @@ Development.add({
       },
       cards:{
           cardMvp:{
-            textCardMpv:{
+            textCardMvp:{
                 type: Types.Text,
                 required: true,
                 initial:true,

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import './Responsive.css';
+import './FooterResponsive.css';
 import Logo from "../../images/logo.png"
 import Seta from "../../images/seta-direita.png"
 
