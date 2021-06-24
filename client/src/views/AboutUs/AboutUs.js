@@ -4,9 +4,8 @@ import './AboutUs.css';
 import './AboutUsResponsive.css';
 import Slider from "react-slick";
 import {CardCarousel} from "../../components"
-import forma3 from "../../images/forma3.png"
-import square from "../../images/square.png"
-
+import esquerda from "../../images/seta_esquerda.png"
+import direita from "../../images/seta_direita.png"
 const AboutUs = () => {
     const [Square, setSquare] = useState(false)
 
@@ -43,7 +42,7 @@ const AboutUs = () => {
     const NextArrow = ({ onClick }) => {
         return (
           <div className="arrow next" onClick={onClick}>
-            <h2 style={{fontSize:"2.6vw"}}>&#129146;</h2>
+            <img src={direita} style={{height:"30px", width:"30px"}} />
           </div>
         );
     };
@@ -51,7 +50,7 @@ const AboutUs = () => {
     const PrevArrow = ({ onClick }) => {
         return (
             <div className="arrow prev" onClick={onClick}>
-                <h2 style={{fontSize:"2.6vw"}}>&#129144;</h2>
+                <img style={{height:"30px", width:"30px"}} src={esquerda}/>
             </div>
         );
     };
