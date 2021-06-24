@@ -46,14 +46,16 @@
         margin-bottom: 10px;
     }
     .arrow.next img,.arrow.prev img {
-        margin-top: 4px;
+        bottom: 4px;
         width: 25px !important;
         height: 25px !important;    
     }
     .next {
+        z-index: 10;
         top: 55.3vw;
     } 
     .prev {
+        z-index: 10;
         top: 55.3vw;
     }
     .slick-dots li{
