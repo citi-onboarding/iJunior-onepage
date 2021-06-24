@@ -1,0 +1,74 @@
+@media (max-width: 1100px) {
+    
+    .development-center{
+        font-size: 80%;
+    }
+    .cards-development{
+        height: 350px;
+    }
+    .card-development:first-child{
+        margin-right: 230px;
+    }
+}
+
+@media (max-width: 880px) {
+    .development-center{
+        font-size: 60%;
+    }
+    .cards-development{
+        height: 280px;
+    }
+    .card-development:first-child{
+        margin-right: 140px;
+    }
+}
+
+@media (max-width: 640px) {
+    .Development{
+        height: 80vh;
+        min-height: 400px;
+    }
+    .development-center{
+        font-size: 50%;
+    }
+    .cards-development{
+        height: 200px;
+    }
+    .card-development:first-child{
+        margin-right: 80px;
+    }
+    .development-text h1{
+        font-size: 25px;
+    }
+    .development-text h5{
+        font-size: 12px;
+        margin-bottom: 14px;
+    }
+    .development-text p{
+        width: 260px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Development{
+        min-height: 700px;
+    }
+    .cards-development-mobile{
+        display: flex;
+    }
+    .cards-development .card-development p{
+        display: none;
+    }
+    .cards-development .card-development h1{
+        font-size: 13px;
+        bottom: 10px;
+    }
+    .cards-development .card-development{
+        min-height: 30px;
+        min-width: 70px;
+    }
+    .card-development:first-child{
+        margin-right: 20vw;
+    }
+}

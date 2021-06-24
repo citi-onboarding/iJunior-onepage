@@ -1,0 +1,12 @@
+{
+  "name": "ijunior-onepage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/citi-onboarding/iJunior-onepage.git",
+  "author": "Mauricio Guimarães <mfgf@cin.ufpe.br>",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm install && cd ./client && npm start && cd ../server && node index.js",
+    "install": "cd ./client && npm install && cd ../server && npm install"
+    }
+}

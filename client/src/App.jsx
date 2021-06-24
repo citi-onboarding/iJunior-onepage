@@ -1,10 +1,13 @@
-import {
-  PostList,
-} from './components';
-
+import {Banner, AboutUs, Footer, Development} from "./views"
+import "./App.css"
 function App() {
   return (
-    <PostList />
+    <div className="App">
+      <Banner/>
+      <Development/> 
+      <AboutUs/>
+      <Footer/>
+    </div>
   );
 }
 
