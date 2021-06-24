@@ -27,12 +27,8 @@ const Development = () => {
       }, []);
 
     return (
-        <div style={{overflow:"hidden"}}>
+        <div id="main-development" >
             <div className="Development">
-                <div className="development-side">
-                    <div className="dv-background left top"> <img src={forma2}></img></div>
-                    <div className="dv-background left bottom"><img src={squareDots}></img></div>
-                </div>
                 {development?
                     <div className="development-center">
                         <div className="development-text">
@@ -49,11 +45,6 @@ const Development = () => {
                             <CardDevelopment title="Modules" text = {development.Modules} img={list}/>
                         </div>
                     </div>:<> </>}
-                <div className="development-side">
-                    <div className="dv-background right">
-                        <img src={forma1}></img> 
-                    </div>
-                </div>
             </div>
         </div>
     )

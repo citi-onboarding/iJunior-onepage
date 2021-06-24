@@ -84,18 +84,12 @@ const AboutUs = () => {
         LoadCarousel();
     }, []);
     return (  
-        <div className="aboutUs" onLoad={loadButtonResponsive}>
+        <div className="aboutUs" id="aboutUs" onLoad={loadButtonResponsive}>
             <div className="aboutUs-text">
                 <h1 className="title">Conheça nossa História</h1>
                 <p className="description">{cardCarousel.text}</p>
             </div>
             <div className="carousel">
-                <div className="background-image">
-                    {Square? 
-                        <><img src={square} alt="background form"/></>
-                        : <><img src={forma3} alt="background form"/></>
-                    }  
-                </div>
                 <div className="carousel-list">
                     <Slider {...settings}>
                         {cardCarousel.cards?.map(({texto,title,icon},index)=>(

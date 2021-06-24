@@ -3,7 +3,7 @@ import './Button.css';
 function Button({text, Width , Height}) {
   
   return (
-      <button style={{width: Width, height: Height}}>{text}</button>
+      <button className="buttonPage" style={{width: Width, height: Height}}>{text}</button>
   );
 }
 

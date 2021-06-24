@@ -1,4 +1,5 @@
 @media (max-width: 1100px) {
+    
     .development-center{
         font-size: 80%;
     }
@@ -7,18 +8,6 @@
     }
     .card-development:first-child{
         margin-right: 230px;
-    }
-
-    /*background images*/
-    .left{
-        height: 40%;
-    }
-    .left.bottom img{
-        left: -500px;
-        min-width: 800px;
-    }
-    .right{
-        height: 70%;
     }
 }
 
@@ -32,34 +21,12 @@
     .card-development:first-child{
         margin-right: 140px;
     }
-
-    /*background images*/
-    .bottom{
-        align-items: flex-start;
-    }
-    .left{
-        height: 55%;
-    }
-    .left.top img{
-        min-width: 950px;
-    }
-    .left.bottom img{
-        min-width: 600px;
-        left: -370px;
-    }
-    .right{
-        height: 70%;
-    }
-    .right img{
-        min-width: 500px;
-        right: 80px;
-    }
 }
 
 @media (max-width: 640px) {
     .Development{
         height: 80vh;
-        min-height: 700px;
+        min-height: 400px;
     }
     .development-center{
         font-size: 50%;
@@ -81,23 +48,12 @@
         width: 260px;
         font-size: 12px;
     }
-
-    /*background images*/
-    .left.bottom img{
-        min-width: 400px;
-        left: -250px;
-    }
-    .left.top img{
-        min-width: 900px;
-    }
-    .right img{
-        min-width: 350px;
-        right: 100px;
-        top:80px;
-    }
 }
 
 @media (max-width: 480px) {
+    .Development{
+        min-height: 700px;
+    }
     .cards-development-mobile{
         display: flex;
     }
@@ -114,26 +70,5 @@
     }
     .card-development:first-child{
         margin-right: 20vw;
-    }
-
-    /*background images*/
-    .left.bottom img{
-        display: none;
-    }
-    .left.top img{
-        bottom: -500px;
-    }
-    .right{
-        position: relative;
-        right: 80px;
-        top: 560px;
-        width: 200px;
-        opacity: 1;
-        background-image: url("../../images/wave.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-    .right img{
-        display: none;
     }
 }

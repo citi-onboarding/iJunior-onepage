@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import './Banner.css';
 import './BannerResponsive.css';
-import Logo from "../../images/logo.png"
+import Logo from "../../images/Logo.png"
 import {Button} from "../../components"
 const Banner = () => {
 
@@ -84,10 +84,10 @@ const Banner = () => {
                         <a onClick={closeMobileMenu} href="#">Análise de Requisitos</a>
                         </li>
                         <li className="option">
-                        <a onClick={closeMobileMenu} href="#">Desenvovimento</a>
+                        <a onClick={closeMobileMenu} href="#main-development">Desenvovimento</a>
                         </li>
                         <li className="option">
-                        <a onClick={closeMobileMenu} href="#">Quem Somos</a>
+                        <a onClick={closeMobileMenu} href="#aboutUs">Quem Somos</a>
                         </li>
                         <li className="option">
                         <a onClick={closeMobileMenu} href="#">Contato</a>

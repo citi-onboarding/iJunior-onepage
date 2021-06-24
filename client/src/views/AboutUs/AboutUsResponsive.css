@@ -23,12 +23,12 @@
         width: 2vw;
         height:2vw;
     }
-    .background-image img{
-        top: 10vw !important;
-    }
 }   
 
 @media (max-width: 480px) {
+    .aboutUs{
+        min-height: 450px;
+    }
     .carousel-list{
         width: 120%;
     }
@@ -64,18 +64,6 @@
         width: 3vw;
         height:3vw;
     }
-    .background-image {
-        opacity: 1;
-        top: 200px;
-    }
-    .background-image img{
-        position: relative;
-        left: 10px;
-        top: 100px;
-        width: 100px;
-        min-width: 0;
-    }
-
 }
 
 @media (max-width: 320px) {
@@ -91,8 +79,5 @@
     .arrow.next h2,.arrow.prev h2 {
         margin-top: 3.35px;
         font-size: 18px !important;
-    }
-    .background-image img{
-        left: -10px;
     }
 }
