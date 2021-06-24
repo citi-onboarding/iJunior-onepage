@@ -10,8 +10,7 @@
 .aboutUs{
     width: 100%;
     height: 100vh;
-    min-height: 900px;
-    background-color: #96E4EC;
+    min-height: 700px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -49,21 +48,6 @@
     justify-content: center;
 }
 
-.background-image{
-    position: relative;
-    opacity: 0.08;
-    height: 300px;
-    width: 0%;
-}
-
-.background-image img{
-    position: relative;
-    right: 750px;
-    top: 15vw;
-    width: 60vw;
-    min-width: 1000px;
-}
-
 .carousel-list{
     width: 55%;
 }
@@ -72,7 +56,6 @@
     background-color: #fff;
     position: absolute;
     cursor: pointer;
-    z-index: 10;
 }
  
 .next {
@@ -113,6 +96,7 @@
 }
 
 .slick-dots li.slick-active button:before{
+    opacity: 1;
     background-color: black;
 }
 

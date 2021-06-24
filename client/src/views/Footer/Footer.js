@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import './FooterResponsive.css';
-import Logo from "../../images/logo.png"
+import Logo from "../../images/Logo.png"
 import Seta from "../../images/seta-direita.png"
 
 
@@ -21,7 +21,7 @@ const Footer = () => {
                         <img src={Seta} alt="seta para cima"/>
                         <p>Volta para o topo</p>
                     </div>
-                    <p className="footer-button-p" >Made with ❤ and &lt;/&gt; by CITI</p>
+                    <p className="footer-button-p" >Made with &lt;/&gt; and ❤ by CITI</p>
                 </div>
             </div>
         </div>
