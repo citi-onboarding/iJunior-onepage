@@ -13,12 +13,12 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className="footer-left">
-                <img src={Logo}></img>
+                <img src={Logo} alt="logo"/>
             </div>
             <div className="footer-right">
                 <div className="footer-button"> 
                     <div className="button-scroll-top" onClick={scrollTop}>
-                        <img src={Seta}></img>
+                        <img src={Seta} alt="seta para cima"/>
                         <p>Volta para o topo</p>
                     </div>
                     <p className="footer-button-p" >Made with ❤ and &lt;/&gt; by CITI</p>
