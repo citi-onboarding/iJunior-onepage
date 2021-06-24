@@ -1,10 +1,11 @@
-import {AboutUs, Footer} from './views';
+import {AboutUs, Footer, Development} from './views';
 
 function App() {
   return (
     <>
-    <AboutUs />
-    <Footer />
+      <Development/> 
+      <AboutUs />
+      <Footer />
     </>
   );
 }
