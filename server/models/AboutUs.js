@@ -8,8 +8,6 @@ const AboutUs = new keystone.List('AboutUs');
 AboutUs.add({
     text: {
         type: Types.Textarea,
-        require: true,
-        initial:true,
         label: "Texto",
       },
     carrousel:{

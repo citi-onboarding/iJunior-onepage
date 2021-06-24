@@ -1,0 +1,43 @@
+.carousel-option{
+  transform: scale(0.7);  
+  display: flex !important; 
+  justify-content: center;
+  font-size: 2vw;
+}
+
+.slick-center .carousel-option{
+  transform: scale(0.95) ; 
+  transition:all 0.5s ease ;   
+}
+
+.card-carousel{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 25.532vw;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 4px 4px 20px #00000029;
+  border-radius: 30px;
+  color: #000000;
+}
+
+.card-carousel p{
+  margin: 0 20px;
+  opacity: 1;
+  margin-top:0;
+  font-size: 52.61%;
+}
+
+.card-carousel h5{
+  opacity: 1;
+  font-size: 58.7%;
+  margin:11.7% 5px;
+}
+
+.card-carousel img{
+  width: 58.5%;
+  height: 37.6%;
+}
