@@ -1,4 +1,4 @@
-import {Banner, AboutUs, Footer, Development} from "./views"
+import {Banner, AboutUs, Footer, Development,Contact} from "./views"
 import "./App.css"
 function App() {
   return (
@@ -6,6 +6,7 @@ function App() {
       <Banner/>
       <Development/> 
       <AboutUs/>
+      <Contact/>
       <Footer/>
     </div>
   );
