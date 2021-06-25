@@ -70,7 +70,7 @@ const AboutUs = () => {
     const [cardCarousel, setCardCarousel] = useState([]);
 
     const LoadCarousel = async () => {
-        const res = await axios.get('http://localhost:3001/api/aboutus');
+        const res = await axios.get('https://ijuniorloop.herokuapp.com/api/aboutus');
         const carousel={
             text:res.data[0].text,
             cards: []
@@ -83,7 +83,7 @@ const AboutUs = () => {
         LoadCarousel();
     }, []);
     return (  
-        <div className="aboutUs" id="aboutUs" onLoad={loadButtonResponsive}>
+        <div className="aboutUs" id="quemsomos" onLoad={loadButtonResponsive}>
             <div className="aboutUs-text">
                 <h1 className="title">Conheça nossa História</h1>
                 <p className="description">{cardCarousel.text}</p>
