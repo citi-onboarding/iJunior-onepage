@@ -55,7 +55,7 @@ const Banner = () => {
 
     const[banners, setBanner] = useState([])
     const loadBanner = async () => {
-        const res = await axios.get('http://localhost:3001/api/banner');
+        const res = await axios.get('https://ijuniorloop.herokuapp.com/api/banner');
         const Objeto = {
             text:res.data[0].text,
             title:res.data[0].title.url, 
@@ -75,7 +75,7 @@ const Banner = () => {
                     </div>
                     <ul className={click ? "nav-options active" : "nav-options"}>
                         <li className="option">
-                        <a onClick={closeMobileMenu} href="#banner">iJunior Loop</a>
+                        <a onClick={closeMobileMenu} href="#ijuniorloop">iJunior Loop</a>
                         </li>
                         <li className="option">
                         <a onClick={closeMobileMenu} href="#">Entrega Modular</a>
@@ -84,10 +84,10 @@ const Banner = () => {
                         <a onClick={closeMobileMenu} href="#">Análise de Requisitos</a>
                         </li>
                         <li className="option">
-                        <a onClick={closeMobileMenu} href="#main-development">Desenvovimento</a>
+                        <a onClick={closeMobileMenu} href="#desenvolvimento">Desenvovimento</a>
                         </li>
                         <li className="option">
-                        <a onClick={closeMobileMenu} href="#aboutUs">Quem Somos</a>
+                        <a onClick={closeMobileMenu} href="#quemsomos">Quem Somos</a>
                         </li>
                         <li className="option">
                         <a onClick={closeMobileMenu} href="#">Contato</a>
@@ -117,7 +117,7 @@ const Banner = () => {
                 </div>
             </div>
             <div>
-                <div id="banner">
+                <div id="ijuniorloop">
                     <div className="banner-text">
                         <img src={banners.title} alt="logo iJunior Loop"/>
                         <p>{banners.text}</p>
