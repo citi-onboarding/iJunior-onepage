@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.10d0a0a0.chunk.css",
+    "main.js": "/static/js/main.46e3fcf0.chunk.js",
+    "main.js.map": "/static/js/main.46e3fcf0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a06e69b5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a06e69b5.js.map",
+    "static/css/2.19627560.chunk.css": "/static/css/2.19627560.chunk.css",
+    "static/js/2.ebd2f963.chunk.js": "/static/js/2.ebd2f963.chunk.js",
+    "static/js/2.ebd2f963.chunk.js.map": "/static/js/2.ebd2f963.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.19627560.chunk.css.map": "/static/css/2.19627560.chunk.css.map",
+    "static/css/main.10d0a0a0.chunk.css.map": "/static/css/main.10d0a0a0.chunk.css.map",
+    "static/js/2.ebd2f963.chunk.js.LICENSE.txt": "/static/js/2.ebd2f963.chunk.js.LICENSE.txt",
+    "static/media/Logo.2125dc53.png": "/static/media/Logo.2125dc53.png",
+    "static/media/aeroplane.996308a8.png": "/static/media/aeroplane.996308a8.png",
+    "static/media/Development.css": "/static/media/bigball.d2b2b305.png",
+    "static/media/list.60e73d39.png": "/static/media/list.60e73d39.png",
+    "static/media/seta_direita.448118fb.png": "/static/media/seta_direita.448118fb.png",
+    "static/media/seta_esquerda.10680a27.png": "/static/media/seta_esquerda.10680a27.png",
+    "static/media/AboutUs.css": "/static/media/slick.c94f7671.ttf",
+    "static/media/BannerResponsive.css": "/static/media/wave-dots.59916a5d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a06e69b5.js",
+    "static/css/2.19627560.chunk.css",
+    "static/js/2.ebd2f963.chunk.js",
+    "static/css/main.10d0a0a0.chunk.css",
+    "static/js/main.46e3fcf0.chunk.js"
+  ]
+}
