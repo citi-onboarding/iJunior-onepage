@@ -3,16 +3,14 @@ import axios from "axios";
 import './Development.css';
 import './DevelopmentResponsive.css';
 import { CardDevelopment } from '../../components';
-import forma1 from "../../images/forma1.png"
-import forma2 from "../../images/forma2.png"
 import list from "../../images/list.png"
 import aeroplane from "../../images/aeroplane.png"
-import squareDots from "../../images/square-dots.png"
+
 
 const Development = () => {
     const[development, setDevelopment] = useState([])
     const loadDevelopment = async () => {
-        const res = await axios.get('http://localhost:3001/api/development');
+        const res = await axios.get('https://ijuniorloop.herokuapp.com/api/development');
         const Object = {
             quote: res.data[0].quote,
             comment:res.data[0].comment,
@@ -27,7 +25,7 @@ const Development = () => {
       }, []);
 
     return (
-        <div id="main-development" >
+        <div id="desenvolvimento" >
             <div className="Development">
                 {development?
                     <div className="development-center">
