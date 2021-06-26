@@ -14,7 +14,7 @@ function ContactForm({objeto}) {
 
     const sendEmail = async () => {
         try {
-          await axios.post('http://localhost:3001/sendmail', data)
+          await axios.post('https://ijuniorloop.herokuapp.com/sendmail', data)
           alert("Email enviado com sucesso");
         } catch (error) {
           alert("Houve um erro. Tente novamente.")
