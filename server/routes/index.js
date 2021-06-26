@@ -8,6 +8,7 @@ const mDeliveryController = require('../controllers/mDeliveryController');
 const analysisController = require('../controllers/analysisController');
 const aboutUsController = require('../controllers/aboutUsController');
 const contactController = require('../controllers/contactController');
+const mailController = require('../controllers/mailController')
 
 module.exports = (app) => {
   app.use(cors());
@@ -33,4 +34,6 @@ module.exports = (app) => {
   app.get('*', (req, res) => {
     res.redirect('/');
   });
+
+  app.post('/sendmail', mailController)
 };
