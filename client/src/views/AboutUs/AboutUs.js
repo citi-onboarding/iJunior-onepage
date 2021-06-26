@@ -18,7 +18,6 @@ const AboutUs = () => {
             document.querySelector(".next").style.right = calculo + "vw"
             document.querySelector(".prev").style.left = calculo + "vw"
         }
-        console.log(ContDots)
     }
 
     window.onresize = ()=>{

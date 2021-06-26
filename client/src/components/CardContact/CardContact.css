@@ -1,0 +1,38 @@
+.card-contact{
+  display: flex;
+  flex-direction: column;
+  width: 55.1em;
+  height: 36.9em;
+  border-radius: 3em;
+  box-shadow: 0.4em 0.4em 2em #00000029;
+  background-color: white;
+}
+
+.contact-circle{
+  margin: 0 2.6em;
+  display: flex;
+  border-bottom: 1px solid #7070702E;
+}
+
+.circle{
+  width: 1.7em;
+  height: 1.7em;
+  border-radius: 1.7em;
+  margin: 0.9em 1em 0.5em 0;
+}
+
+.contact-info{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  color: #20B7C6;
+}
+.contact-info h1{
+  margin: 5px 0 1.265em 0;
+}
+
+
+
+
