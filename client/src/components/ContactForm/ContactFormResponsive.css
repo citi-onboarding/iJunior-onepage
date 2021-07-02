@@ -1,47 +1,55 @@
 @media (max-width: 980px) {
-    form .buttonPage{
-        width: 80px !important;
-        height: 31.1px !important;
-        font-size: 12px;
-    }
-    form input,form textarea {
-        margin-bottom: 6px;
-    }
-    form textarea{
-        height: 60px;
-    } 
-    form input::-webkit-input-placeholder,form textarea::-webkit-input-placeholder {
-        font-size: 10px;
-    }
-    form input::-moz-placeholder,form textarea::-moz-placeholder{
-        font-size: 10px;
-    }
-    form input:-ms-input-placeholder,form textarea:-ms-input-placeholder {  
-        font-size: 10px;
-    }
+  form .buttonPage {
+    width: 80px !important;
+    height: 31.1px !important;
+    font-size: 12px;
+  }
+  form input,
+  form textarea {
+    margin-bottom: 6px;
+  }
+  form textarea {
+    height: 60px;
+  }
+  form input::-webkit-input-placeholder,
+  form textarea::-webkit-input-placeholder {
+    font-size: 10px;
+  }
+  form input::-moz-placeholder,
+  form textarea::-moz-placeholder {
+    font-size: 10px;
+  }
+  form input:-ms-input-placeholder,
+  form textarea:-ms-input-placeholder {
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 680px) {
-    form .buttonPage{
-        width: 60px !important;
-        height: 23.3px !important;
-        font-size: 10px;
-        margin-top: 3px;
-    }
-    form input,form textarea {
-        font-size: 8px;
-        margin-bottom: 6px;
-    }
-    form textarea{
-        height: 40px;
-    } 
-    form input::-webkit-input-placeholder,form textarea::-webkit-input-placeholder {
-        font-size: 8px;
-    }
-    form input::-moz-placeholder,form textarea::-moz-placeholder{
-        font-size: 8px;
-    }
-    form input:-ms-input-placeholder,form textarea:-ms-input-placeholder {  
-        font-size: 8px;
-    }
+  form .buttonPage {
+    width: 60px !important;
+    height: 23.3px !important;
+    font-size: 10px;
+    margin-top: 3px;
+  }
+  form input,
+  form textarea {
+    font-size: 8px;
+    margin-bottom: 6px;
+  }
+  form textarea {
+    height: 40px;
+  }
+  form input::-webkit-input-placeholder,
+  form textarea::-webkit-input-placeholder {
+    font-size: 8px;
+  }
+  form input::-moz-placeholder,
+  form textarea::-moz-placeholder {
+    font-size: 8px;
+  }
+  form input:-ms-input-placeholder,
+  form textarea:-ms-input-placeholder {
+    font-size: 8px;
+  }
 }

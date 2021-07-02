@@ -20,7 +20,7 @@ module.exports = (app) => {
   app.get('/api/posts', postController.getPostController);
 
   app.get('/api/banner', bannerController.getBannerController);
-  
+
   app.get('/api/aboutus', aboutUsController.getAboutUsController);
 
   app.get('/api/development', developmentController.getDevelopmentController);

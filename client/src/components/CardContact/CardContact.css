@@ -1,4 +1,4 @@
-.card-contact{
+.card-contact {
   display: flex;
   flex-direction: column;
   width: 55.1em;
@@ -8,31 +8,27 @@
   background-color: white;
 }
 
-.contact-circle{
+.contact-circle {
   margin: 0 2.6em;
   display: flex;
-  border-bottom: 1px solid #7070702E;
+  border-bottom: 1px solid #7070702e;
 }
 
-.circle{
+.circle {
   width: 1.7em;
   height: 1.7em;
   border-radius: 1.7em;
   margin: 0.9em 1em 0.5em 0;
 }
 
-.contact-info{
+.contact-info {
   width: 100%;
   height: 100%;
   display: flex;
   text-align: center;
   flex-direction: column;
-  color: #20B7C6;
+  color: #20b7c6;
 }
-.contact-info h1{
+.contact-info h1 {
   margin: 5px 0 1.265em 0;
 }
-
-
-
-

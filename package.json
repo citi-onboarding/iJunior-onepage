@@ -8,5 +8,5 @@
   "scripts": {
     "start": "npm install && cd ./client && npm start && cd ../server && node index.js",
     "install": "cd ./client && npm install && cd ../server && npm install"
-    }
+  }
 }
