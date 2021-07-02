@@ -8,32 +8,32 @@ import { Button } from "../../components"
 const Banner = () => {
   window.addEventListener('scroll', function () {
     const linkBorder = document.getElementById("nav-link").style
-    if (window.scrollY >= 0 && window.scrollY < 780) {
+    if (window.scrollY >= 0 && window.scrollY < 680) {
       linkBorder.left = "23.4vw";
       linkBorder.width = "7.863vw"
     }
 
-    if (window.scrollY > -8000 && window.scrollY < -10500) {
-      linkBorder.left = "33vw";
-      linkBorder.width = "10.85vw"
-    }
+    /*     if (window.scrollY > 680 && window.scrollY < 2200) {
+          linkBorder.left = "33vw";
+          linkBorder.width = "10.85vw"
+        } */
 
-    if (window.scrollY > -15000 && window.scrollY < -81700) {
+    if (window.scrollY > 680 && window.scrollY < 1200) {
       linkBorder.left = "45.8vw";
       linkBorder.width = "13.7vw"
     }
 
-    if (window.scrollY > 780 && window.scrollY < 1500) {
+    if (window.scrollY > 1200 && window.scrollY < 1800) {
       linkBorder.left = "61.5vw";
       linkBorder.width = "10.9vw"
     }
 
-    if (window.scrollY > 1500 && window.scrollY < 2200) {
+    if (window.scrollY > 1800 && window.scrollY < 2400) {
       linkBorder.left = "74.6vw";
       linkBorder.width = "8.7vw"
     }
 
-    if (window.scrollY > 2200) {
+    if (window.scrollY > 2400) {
       linkBorder.left = "85.3vw";
       linkBorder.width = "5.2vw"
     }
