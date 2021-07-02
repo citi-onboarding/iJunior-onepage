@@ -1,6 +1,6 @@
 import "./ContactLinks.css"
 
-function ContactLinks({ object }) {
+const ContactLinks = ({ object }) => {
   return (
     <div className="links">
       <div className="Links-option one">

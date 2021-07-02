@@ -6,7 +6,6 @@ import { CardDevelopment } from '../../components';
 import list from "../../images/list.png"
 import aeroplane from "../../images/aeroplane.png"
 
-
 const Development = () => {
   const [development, setDevelopment] = useState([])
   const loadDevelopment = async () => {
