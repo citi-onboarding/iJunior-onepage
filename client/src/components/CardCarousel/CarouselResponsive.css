@@ -1,67 +1,66 @@
 @media (max-width: 950px) {
-    .slick-center .carousel-option{
-        padding:0 !important;
-    }
-    .card-carousel{
-        height: 35.23vw;
-        box-shadow: 2px 2px 10px #00000029;
-        border-radius: 30px;
-    }
-    .card-carousel h5{
-        margin: 8px 5px;
-        font-size: 15px;
-    }
-    .card-carousel p{
-        margin: 0 10px;
-        font-size: 12px;
-    }   
+  .slick-center .carousel-option {
+    padding: 0 !important;
+  }
+  .card-carousel {
+    height: 35.23vw;
+    box-shadow: 2px 2px 10px #00000029;
+    border-radius: 30px;
+  }
+  .card-carousel h5 {
+    margin: 8px 5px;
+    font-size: 15px;
+  }
+  .card-carousel p {
+    margin: 0 10px;
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 700px) {
-    .card-carousel{
-        border-radius: 25px;
-    }
-    .card-carousel img{
-        width: 45%;
-        height: 28.32%;
-        margin-bottom: 10px;
-    }
-    .card-carousel h5{
-        font-size: 12px;
-    }
-    .card-carousel p{
-        font-size: 10px;
-    }
+  .card-carousel {
+    border-radius: 25px;
+  }
+  .card-carousel img {
+    width: 45%;
+    height: 28.32%;
+    margin-bottom: 10px;
+  }
+  .card-carousel h5 {
+    font-size: 12px;
+  }
+  .card-carousel p {
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 480px) {
-    .carousel-option{
-        opacity: 0.5;
-    }
-    .card-carousel{
-        height: 55vw ;
-    }
-    .slick-center .carousel-option{
-        opacity: 1;
-    }
-    .card-carousel h5{
-        font-size: 13px;
-    }
-    .card-carousel p{
-        font-size: 10.5px;
-    }
+  .carousel-option {
+    opacity: 0.5;
+  }
+  .card-carousel {
+    height: 55vw;
+  }
+  .slick-center .carousel-option {
+    opacity: 1;
+  }
+  .card-carousel h5 {
+    font-size: 13px;
+  }
+  .card-carousel p {
+    font-size: 10.5px;
+  }
 }
-
 
 @media (max-width: 280px) {
-    .card-carousel h5{
-        font-size: 11px;
-    }
-    .card-carousel p{
-        font-size: 8px;
-    }
-    .card-carousel img{
-        width: 35%;
-        height: 22.5%;
-    }
-}
+  .card-carousel h5 {
+    font-size: 11px;
+  }
+  .card-carousel p {
+    font-size: 8px;
+  }
+  .card-carousel img {
+    width: 35%;
+    height: 22.5%;
+  }
+} ;

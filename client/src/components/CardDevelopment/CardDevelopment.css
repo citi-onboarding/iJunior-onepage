@@ -1,10 +1,10 @@
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-.card-development{
+.card-development {
   font-size: 62.5%;
   display: flex;
   flex-direction: column;
@@ -19,23 +19,23 @@
 
 .card-development img {
   position: relative;
-  bottom:2.4em;
+  bottom: 2.4em;
   width: 6em;
   height: 6em;
-} 
+}
 
-.card-development h1{
+.card-development h1 {
   position: relative;
   bottom: 1.4em;
-  color: #23C7D7;
+  color: #23c7d7;
   font-size: 1.6em;
 }
 
-.card-development p{
+.card-development p {
   position: relative;
   bottom: 1.4em;
   text-align: center;
-  color: #0A0B0C;
+  color: #0a0b0c;
   font-size: 1.3em;
   margin: 0 2.5em 2.5em 2.5em;
 }
