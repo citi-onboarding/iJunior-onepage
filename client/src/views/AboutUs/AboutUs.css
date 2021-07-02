@@ -6,6 +6,10 @@
   margin: 0;
 }
 
+#quemsomos {
+  padding-top: 80px;
+}
+
 .aboutUs {
   width: 100%;
   overflow: hidden;
