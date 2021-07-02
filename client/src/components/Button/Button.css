@@ -1,18 +1,18 @@
-.buttonPage{
-    background: #23C7D7 0% 0% no-repeat padding-box;
-    box-shadow: 0px 2px 6px #00000029;
-    border-radius: 30px;
-    outline: none;
-    border: none;
-    font-size:13px;
-    font-weight:600;
-    letter-spacing: 0px;
-    color: #0A0B0C;
-    cursor: pointer;
-    margin-top: 13px;
-    opacity: 1;
+.buttonPage {
+  background: #23c7d7 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 6px #00000029;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #0a0b0c;
+  cursor: pointer;
+  margin-top: 13px;
+  opacity: 1;
 }
 
-.buttonPage:active{
-    background: #167b85 0% 0% no-repeat padding-box;
+.buttonPage:active {
+  background: #167b85 0% 0% no-repeat padding-box;
 }

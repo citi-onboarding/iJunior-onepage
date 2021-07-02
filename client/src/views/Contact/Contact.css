@@ -1,0 +1,13 @@
+#contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 150px 0;
+}
+
+.contact-link:first-child {
+  position: relative;
+  left: 40px;
+  z-index: 5;
+}

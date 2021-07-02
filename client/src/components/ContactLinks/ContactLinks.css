@@ -1,0 +1,24 @@
+.Links-option {
+  margin-left: 7.68em;
+  display: flex;
+  text-align: left;
+}
+
+.Links-option img {
+  margin: 0 15px 0 0;
+  width: 3.224em;
+  height: 3.224em;
+}
+
+.Links-option a {
+  display: flex;
+  color: #20b7c6;
+  text-decoration: none;
+  margin-bottom: 2.7em;
+}
+
+.Links-option p {
+  font-size: 2.15em;
+  display: flex;
+  align-items: center;
+}

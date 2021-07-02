@@ -1,0 +1,22 @@
+
+.MDcontainer{
+    padding: 5% 0;
+}
+.callToAction{
+    display: flex;
+    color: #58cef4;
+    font-size: large;
+    align-items: center;
+}
+
+.waveDotsImg{
+    width: 70%;
+    position: relative;
+    right: 10%;
+}
+
+.cards-container{
+display: flex;
+text-align: center;
+margin: 5% 15%;
+}

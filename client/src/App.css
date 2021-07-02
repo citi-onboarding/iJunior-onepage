@@ -1,3 +1,35 @@
-.App{
-    background:linear-gradient(180deg, #FFFFFF 0%, #F2FCFD 20%, #E5F9FA 36%, #CBF2F5 55%, #B4ECF1 68%, #96E4EC 84%, #23C7D7 100%);
+.App {
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #f2fcfd 20%,
+    #e5f9fa 36%,
+    #cbf2f5 55%,
+    #b4ecf1 68%,
+    #96e4ec 84%,
+    #23c7d7 100%
+  );
+}
+
+html {
+  scrollbar-color: rgba(29, 28, 28, 0.842) rgb(255, 255, 255);
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 11px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  border: 1px solid white;
+  border-radius: 5px;
+  background: #0a0b0ccb;
+}
+
+::-webkit-scrollbar-thumb:vertical:active {
+  background-color: #0a0b0c;
 }

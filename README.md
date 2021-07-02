@@ -1,10 +1,10 @@
 # Project: Squad Shellyda </>
 
-## Who's our client? 
+## Who's our client?
 
 It's iJunior, junior company in the Computer Science Department at UFMG, which develops two types os digital solutions: **iJunior Start** and **iJunior Loop**.
 
-## What about our project? 
+## What about our project?
 
 Our job is to develop an OnePage Website to present the product **iJunior Loop**, which is a solution aimed at create Web Aplications with module development. The main objective of the project is to attract customers, and it must present the product in an objective way that brings value to the user.
 
@@ -22,12 +22,12 @@ Our job is to develop an OnePage Website to present the product **iJunior Loop**
 
 The project was divided into a few stages:
 
-1. *Wireframe* production, followed by its validation;
-2. *High fidelity mockup*, followed by its validation;
-3. *Development Sprint 1*, where the back-end will be structured;
-4. *Development Sprint 2*, where the front-end will be componentized;
-5. *Development Sprint 3*, whose main goals are integration and deploy;
-6. *Final project delivery*;
+1. _Wireframe_ production, followed by its validation;
+2. _High fidelity mockup_, followed by its validation;
+3. _Development Sprint 1_, where the back-end will be structured;
+4. _Development Sprint 2_, where the front-end will be componentized;
+5. _Development Sprint 3_, whose main goals are integration and deploy;
+6. _Final project delivery_;
 
 The activities are divided among the members, who concentrate daily for alignment in the project. Each issue has a deadline and is marked by specific tags (in order of priority, for example), and the organization is by Notion and GitHub!
 
