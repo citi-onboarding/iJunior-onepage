@@ -45,7 +45,7 @@ const MDdelivery = () => {
         <div className="MDcontainer" id="entregamodular">
             <div className="callToAction">
                 <img className="waveDotsImg" src={waveDots} />
-                <h1 className="title">Entrega Modular</h1>
+                <h1 className="title-md">Entrega Modular</h1>
             </div>
             <div className="cards-container">
                 {MDdeliveryData && (
