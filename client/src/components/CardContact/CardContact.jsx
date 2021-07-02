@@ -1,6 +1,6 @@
 import './CardContact.css';
 
-function CardContact({ fontsize, content, title, align, margin }) {
+const CardContact = ({ fontsize, content, title, align, margin }) => {
   return (
     <div className="main" style={{ fontSize: fontsize }}>
       <div className="card-contact">

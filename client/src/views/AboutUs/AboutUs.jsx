@@ -6,8 +6,8 @@ import Slider from "react-slick";
 import { CardCarousel } from "../../components"
 import esquerda from "../../images/seta_esquerda.png"
 import direita from "../../images/seta_direita.png"
-const AboutUs = () => {
 
+const AboutUs = () => {
   const loadButtonResponsive = () => {
     var screen = document.body.clientWidth
     const ContDots = document.querySelectorAll(".slick-dots li").length - 2

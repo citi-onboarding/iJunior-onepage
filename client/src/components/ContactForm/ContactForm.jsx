@@ -4,7 +4,7 @@ import { Button } from "../../components"
 import { useState } from 'react';
 import axios from 'axios';
 
-function ContactForm({ objeto }) {
+const ContactForm = ({ objeto }) => {
   const [option1, setOption1] = useState('');
   const [option2, setOption2] = useState('');
   const [option3, setOption3] = useState('');

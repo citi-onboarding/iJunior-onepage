@@ -1,7 +1,7 @@
 import './CardCarousel.css';
 import './CarouselResponsive.css'
 
-function CardCarousel({ img, title, text }) {
+const CardCarousel = ({ img, title, text }) => {
   return (
     <div className="carousel-option">
       <div className="card-carousel">

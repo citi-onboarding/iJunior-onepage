@@ -4,8 +4,7 @@ import './FooterResponsive.css';
 import Logo from "../../images/Logo.png"
 import Seta from "../../images/seta-direita.png"
 
-
-function Footer() {
+const Footer = () => {
   const scrollTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
