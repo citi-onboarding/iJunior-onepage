@@ -13,10 +13,10 @@ const Banner = () => {
       linkBorder.width = "7.863vw"
     }
 
-    /*     if (window.scrollY > 680 && window.scrollY < 2200) {
+        if (window.scrollY > 680 && window.scrollY < 2200) {
           linkBorder.left = "33vw";
           linkBorder.width = "10.85vw"
-        } */
+        } 
 
     if (window.scrollY > 680 && window.scrollY < 1200) {
       linkBorder.left = "45.8vw";

@@ -1,0 +1,52 @@
+h3, p{
+    font-size: 14px;
+}
+
+h3{
+    color: #23C7D7;
+}
+.card-container{
+    display: flex;
+    text-align: center;
+    width: 200px;;
+}
+.card{
+    width: 118px;
+    height: 119px;
+    border-radius: 50%;
+}
+
+.bar{
+    width: 130px;
+    height: 22px;
+    margin: 50px -20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-container{
+    position: relative;
+    left: -30px;
+    padding: 0 5px;
+}
+
+.icon{
+    width: 54%;
+    height: 56%;
+    margin-top: 27px;
+}
+
+.dark{
+    background-color: #0D7EA6;
+}
+
+.clear{
+    background-color: #5CCCF1;
+}
+
+.soso{
+    background-color: #32BFEC;
+}
