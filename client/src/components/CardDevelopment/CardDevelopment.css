@@ -10,8 +10,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 23.9em;
-  min-height: 16.2em;
+  width: 23.9em; /* 
+  min-height: 16.2em; */
   background-color: white;
   box-shadow: 0.4em 0.4em 20em #00000029;
   border-radius: 3em;

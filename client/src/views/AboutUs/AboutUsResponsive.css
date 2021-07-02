@@ -30,9 +30,6 @@
 }
 
 @media (max-width: 480px) {
-  .aboutUs {
-    min-height: 450px;
-  }
   .carousel-list {
     width: 120%;
   }

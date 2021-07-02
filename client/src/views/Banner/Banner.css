@@ -95,7 +95,6 @@
 #ijuniorloop {
   padding-top: 60px;
   height: 100vh;
-  min-height: 800px;
   display: flex;
   justify-content: flex-end;
 }

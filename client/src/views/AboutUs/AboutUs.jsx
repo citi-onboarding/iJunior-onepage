@@ -77,6 +77,7 @@ const AboutUs = () => {
   useEffect(() => {
     LoadCarousel();
   }, []);
+
   return (
     <div className="aboutUs" id="quemsomos" onLoad={loadButtonResponsive}>
       <div className="aboutUs-text">

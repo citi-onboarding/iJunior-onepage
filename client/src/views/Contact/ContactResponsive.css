@@ -8,9 +8,6 @@
 }
 
 @media (max-width: 680px) {
-  #contato {
-    min-height: 500px;
-  }
   .contact-link:first-child {
     left: 20px;
   }

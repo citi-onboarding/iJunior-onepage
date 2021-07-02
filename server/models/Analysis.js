@@ -9,21 +9,18 @@ Analysis.add({
       type: Types.Text,
       required: true,
       initial: true,
-      max: 30,
       label: "Descrição do tópico no primeiro texto"
     },
     secondTopic: {
       type: Types.Text,
       required: true,
       initial: true,
-      max: 30,
       label: "Descrição do tópico no primeiro texto"
     },
     thirdTopic: {
       type: Types.Text,
       required: true,
       initial: true,
-      max: 30,
       label: "Descrição do tópico no primeiro texto"
     },
   },
@@ -32,31 +29,32 @@ Analysis.add({
       type: Types.Text,
       required: true,
       initial: true,
-      max: 30,
       label: "Descrição do tópico no segundo texto"
     },
     secondTopic: {
       type: Types.Text,
       required: true,
       initial: true,
-      max: 30,
       label: "Descrição do tópico no segundo texto"
     },
     thirdTopic: {
       type: Types.Text,
       required: true,
       initial: true,
-      max: 30,
       label: "Descrição do tópico no segundo texto"
     },
   },
   firstImage: {
     type: Types.CloudinaryImages,
     require: true,
+    initial: true,
+    label: "Primeira imagem"
   },
   secondImage: {
     type: Types.CloudinaryImages,
-    require: true
+    require: true,
+    initial: true,
+    label: "Segunda imagem"
   }
 });
 

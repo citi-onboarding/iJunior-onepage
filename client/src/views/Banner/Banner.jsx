@@ -4,8 +4,8 @@ import './Banner.css';
 import './BannerResponsive.css';
 import Logo from "../../images/Logo.png"
 import { Button } from "../../components"
-const Banner = () => {
 
+const Banner = () => {
   window.addEventListener('scroll', function () {
     const linkBorder = document.getElementById("nav-link").style
     if (window.scrollY >= 0 && window.scrollY < 780) {
@@ -79,10 +79,10 @@ const Banner = () => {
               <a onClick={closeMobileMenu} href="#ijuniorloop">iJunior Loop</a>
             </li>
             <li className="option">
-              <a onClick={closeMobileMenu} href="#">Entrega Modular</a>
+              <a onClick={closeMobileMenu} href="#entregamodular">Entrega Modular</a>
             </li>
             <li className="option">
-              <a onClick={closeMobileMenu} href="#">Análise de Requisitos</a>
+              <a onClick={closeMobileMenu} href="#analisederequisitos">Análise de Requisitos</a>
             </li>
             <li className="option">
               <a onClick={closeMobileMenu} href="#desenvolvimento">Desenvovimento</a>
