@@ -26,7 +26,7 @@ const Banner = () => {
         <img src={banners.title} alt="iJunior Loop" />
         <p>{banners.text}</p>
         <div className="button">
-          <a href="#contato">
+          <a href="#Contato">
             <Button text="Entre em Contato" Width={158} Height={44} />
           </a>
         </div>

@@ -9,7 +9,7 @@ import thirdImg from "../../images/lapis.png";
 import fourthImg from "../../images/conexao.png";
 import fifthImg from "../../images/estrela.png";
 
-const MDdelivery = () => {
+const ModularDelivery = () => {
   const [MDdeliveryData, setMDdeliveryData] = useState(null);
 
   const loadData = async () => {
@@ -89,4 +89,4 @@ const MDdelivery = () => {
   );
 };
 
-export default MDdelivery;
+export default ModularDelivery;
