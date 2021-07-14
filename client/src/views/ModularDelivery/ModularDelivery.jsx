@@ -48,42 +48,44 @@ const ModularDelivery = () => {
         <img className="waveDotsImg" src={waveDots} alt="" />
         <h1 className="title-md">Entrega Modular</h1>
       </div>
-      <div className="cards-container">
-        {MDdeliveryData && (
-          <>
-            <CardMDdelivery
-              backgroundColor="dark"
-              ImgIcon={firstImg}
-              title="1.Estudo de demanda"
-              text={MDdeliveryData.textFirstElement.firstCard}
-            />
-            <CardMDdelivery
-              backgroundColor="clear"
-              ImgIcon={secondImg}
-              title="2.Análise de Requisitos"
-              text={MDdeliveryData.textSecondElement.secondCard}
-            />
-            <CardMDdelivery
-              backgroundColor="clear"
-              ImgIcon={thirdImg}
-              title="3.Criação de um Protótipo"
-              text={MDdeliveryData.textThirdElement.thirdCard}
-            />
-            <CardMDdelivery
-              backgroundColor="soso"
-              ImgIcon={fourthImg}
-              title="4.Desenvolvimento"
-              text={MDdeliveryData.textFourthElement.fourthCard}
-            />
-            <CardMDdelivery
-              backgroundColor="dark"
-              bar={true}
-              ImgIcon={fifthImg}
-              title="5.Validação e Teste"
-              text={MDdeliveryData.textFifthElement.fifthCard}
-            />
-          </>
-        )}
+      <div className="card-section">
+        <div className="cards-container-section">
+          {MDdeliveryData && (
+            <>
+              <CardMDdelivery
+                backgroundColor="dark"
+                ImgIcon={firstImg}
+                title="1.Estudo de demanda"
+                text={MDdeliveryData.textFirstElement.firstCard}
+              />
+              <CardMDdelivery
+                backgroundColor="clear"
+                ImgIcon={secondImg}
+                title="2.Análise de Requisitos"
+                text={MDdeliveryData.textSecondElement.secondCard}
+              />
+              <CardMDdelivery
+                backgroundColor="clear"
+                ImgIcon={thirdImg}
+                title="3.Criação de um Protótipo"
+                text={MDdeliveryData.textThirdElement.thirdCard}
+              />
+              <CardMDdelivery
+                backgroundColor="soso"
+                ImgIcon={fourthImg}
+                title="4.Desenvolvimento"
+                text={MDdeliveryData.textFourthElement.fourthCard}
+              />
+              <CardMDdelivery
+                backgroundColor="dark"
+                bar={true}
+                ImgIcon={fifthImg}
+                title="5.Validação e Teste"
+                text={MDdeliveryData.textFifthElement.fifthCard}
+              />
+            </>
+          )}
+        </div>
       </div>
     </div>
   );
