@@ -1,5 +1,6 @@
-#analisederequisitos {
-  overflow: hidden;
+#AnaliseDeRequisitos {
+  padding-top: 65px;
+  padding-bottom: 85px;
 }
 
 .Analysis {
@@ -7,8 +8,7 @@
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  height: 100vh;
-  padding: 0 15%;
+  padding: 25px 15%;
 }
 
 .AnalysisTitle {
@@ -53,4 +53,42 @@ li.Topic::marker {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 680px) {
+  .FirstImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+  }
+
+  .Topic {
+    font-size: 14px;
+  }
+
+  .AnalysisTitle {
+    font-size: 30px;
+  }
+
+  .AnalysisSubtitle {
+    font-size: 20px;
+  }
+
+  .FirstTopic {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .SecondTopic {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .Text {
+    width: 40%;
+    margin: 0;
+  }
 }
