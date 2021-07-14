@@ -8,7 +8,7 @@ h3{
 .card-container{
     display: flex;
     text-align: center;
-    width: 200px;;
+    width: 200px;
 }
 .card{
     width: 118px;
@@ -22,9 +22,10 @@ h3{
     margin: 50px -20px;
 }
 
-.container{
+.container-card{
     display: flex;
     flex-direction: column;
+    width: min-content;
 }
 
 .text-container{

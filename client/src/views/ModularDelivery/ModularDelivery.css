@@ -1,5 +1,5 @@
 @media (max-width: 800px) {
-  .cards-container {
+  .cards-container-section {
     flex-direction: column;
   }
 
@@ -20,7 +20,7 @@
     margin-top: 3px 0;
   }
 
-  .container {
+  .container-card {
     display: flex;
     flex-direction: row;
   }
@@ -36,7 +36,7 @@
 }
 
 @media (max-width: 1098px) {
-  .cards-container {
+  .cards-container-section {
     margin: auto;
   }
 }
@@ -54,8 +54,13 @@
   right: 10%;
 }
 
-.cards-container {
+.cards-container-section {
   display: flex;
   text-align: center;
-  padding: 5% 15%;
+}
+
+.card-section{
+  display: flex;
+  justify-content: center;
+  padding: 25px 15%;
 }

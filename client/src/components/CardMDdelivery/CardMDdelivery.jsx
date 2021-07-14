@@ -3,7 +3,7 @@ import './CardMDdelivery.css';
 
 const CardMDdelivery = ({ title, text, backgroundColor, ImgIcon, bar }) => {
     return (
-        <div className='container'>
+        <div className='container-card'>
             <div className="card-container">
                 <div className={`card ${backgroundColor}`}>
                     <img className="icon" src={ImgIcon} />
