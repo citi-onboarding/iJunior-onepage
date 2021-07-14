@@ -1,11 +1,21 @@
-import { Banner, RequirementsAnalysis, AboutUs, Footer, Development, Contact, MDdelivery } from "./views"
-import "./App.css"
+import {
+  Header,
+  Banner,
+  RequirementsAnalysis,
+  AboutUs,
+  Footer,
+  Development,
+  Contact,
+  ModularDelivery,
+} from "./views";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <Banner />
-      <MDdelivery />
+      <ModularDelivery />
       <RequirementsAnalysis />
       <Development />
       <AboutUs />
@@ -13,6 +23,6 @@ function App() {
       <Footer />
     </div>
   );
-};
+}
 
 export default App;

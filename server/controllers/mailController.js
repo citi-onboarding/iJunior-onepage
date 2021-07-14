@@ -1,35 +1,37 @@
-const dotenv = require('dotenv');
-const nodemailer = require('nodemailer');
+const dotenv = require("dotenv");
+const nodemailer = require("nodemailer");
 
-dotenv.config()
+dotenv.config();
 
 const sendMail = async (req, res) => {
   try {
-    const { option1, option2, option3, option4 } = req.body;
-    console.log(option1[0])
+    const { name, phone, email, message } = req.body;
+
     const body = `
-    ${option1[1]}: ${option1[0]}
-    ${option2[1]}: ${option2[0]}
-    ${option3[1]}: ${option3[0]}
-    ${option4[1]}: ${option4[0]}
+    Nome: ${name}
+    Telefone: ${phone}
+    Email: ${email}
+    Mensagem: ${message}
     `;
+
     const transporter = nodemailer.createTransport({
-      service: 'gmail',
+      service: "gmail",
       auth: {
         user: process.env.EMAIL,
         pass: process.env.PASSWORD,
-      }
+      },
     });
+
     await transporter.sendMail({
-      from: process.env.EMAIL,
+      from: email,
       to: process.env.EMAIL,
-      subject: option4[0],
+      subject: "Contato iJunior Loop",
       text: body,
     });
 
-    res.status(200).send('Everything is alright');
+    res.status(200).send("Everything is alright");
   } catch (error) {
-    res.status(500).send('Ops, something is wrong');
+    res.status(500).send("Ops, something is wrong");
     console.log(error);
   }
 };
