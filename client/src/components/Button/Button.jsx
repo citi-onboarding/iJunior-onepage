@@ -1,8 +1,13 @@
-import './Button.css';
+import "./Button.css";
 
-const Button = ({ text, Width, Height, type }) => {
+const Button = ({ text, Width, Height, type, onClick }) => {
   return (
-    <button className="buttonPage" type={type} style={{ width: Width, height: Height }}>
+    <button
+      className="buttonPage"
+      type={type}
+      style={{ width: Width, height: Height }}
+      onClick={onClick}
+    >
       {text}
     </button>
   );

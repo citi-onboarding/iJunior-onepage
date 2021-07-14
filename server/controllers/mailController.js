@@ -5,13 +5,13 @@ dotenv.config();
 
 const sendMail = async (req, res) => {
   try {
-    const { name, phone, email, subject } = req.body;
+    const { name, phone, email, message } = req.body;
 
     const body = `
     Nome: ${name}
     Telefone: ${phone}
     Email: ${email}
-    Mensagem: ${subject}
+    Mensagem: ${message}
     `;
 
     const transporter = nodemailer.createTransport({
@@ -23,8 +23,8 @@ const sendMail = async (req, res) => {
     });
 
     await transporter.sendMail({
-      from: process.env.EMAIL,
-      to: email,
+      from: email,
+      to: process.env.EMAIL,
       subject: "Contato iJunior Loop",
       text: body,
     });

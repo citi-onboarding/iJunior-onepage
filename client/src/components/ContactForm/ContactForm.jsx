@@ -15,6 +15,10 @@ const ContactForm = ({ objeto }) => {
   const sendEmail = async () => {
     try {
       await axios.post("http://localhost:3001/sendmail", data);
+      setName("");
+      setPhone("");
+      setEmail("");
+      setMessage("");
       alert("Email enviado com sucesso");
     } catch (error) {
       alert("Houve um erro. Tente novamente.");
@@ -26,6 +30,7 @@ const ContactForm = ({ objeto }) => {
     <form onSubmit={sendEmail}>
       <input
         id="option-1"
+        value={name}
         type="text"
         placeholder={"Nome"}
         required
@@ -34,6 +39,7 @@ const ContactForm = ({ objeto }) => {
 
       <input
         id="option-2"
+        value={phone}
         type="tel"
         placeholder={"Telefone"}
         required
@@ -42,6 +48,7 @@ const ContactForm = ({ objeto }) => {
 
       <input
         id="option-3"
+        value={email}
         type="email"
         placeholder={"Email"}
         required
@@ -50,12 +57,19 @@ const ContactForm = ({ objeto }) => {
 
       <textarea
         id="option-4"
+        value={message}
         placeholder={"Mensagem"}
         required
         onChange={(e) => setMessage(e.target.value)}
       />
 
-      <Button type="submit" Width="108px" Height="42px" text="Enviar" />
+      <Button
+        type="button"
+        Width="108px"
+        Height="42px"
+        text="Enviar"
+        onClick={() => sendEmail()}
+      />
     </form>
   );
 };
