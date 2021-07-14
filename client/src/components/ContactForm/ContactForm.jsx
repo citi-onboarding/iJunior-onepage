@@ -1,62 +1,63 @@
-import "./ContactForm.css"
-import "./ContactFormResponsive.css"
-import { Button } from "../../components"
-import { useState } from 'react';
-import axios from 'axios';
+import "./ContactForm.css";
+import "./ContactFormResponsive.css";
+import { Button } from "../../components";
+import { useState } from "react";
+import axios from "axios";
 
 const ContactForm = ({ objeto }) => {
-  const [option1, setOption1] = useState('');
-  const [option2, setOption2] = useState('');
-  const [option3, setOption3] = useState('');
-  const [option4, setOption4] = useState('');
+  const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
-  const data = { option1, option2, option3, option4 }
+  const data = { name, phone, email, message };
 
   const sendEmail = async () => {
     try {
-      await axios.post('https://ijuniorloop.herokuapp.com/sendmail', data)
+      await axios.post("http://localhost:3001/sendmail", data);
       alert("Email enviado com sucesso");
     } catch (error) {
-      alert("Houve um erro. Tente novamente.")
+      alert("Houve um erro. Tente novamente.");
       console.log(error);
     }
-  }
+  };
 
   return (
-    <form onSubmit={sendEmail} >
+    <form onSubmit={sendEmail}>
       <input
         id="option-1"
         type="text"
-        placeholder={objeto.option1}
+        placeholder={"Nome"}
         required
-        onChange={(e) => setOption1([e.target.value, objeto.option1])}
+        onChange={(e) => setName(e.target.value)}
       />
 
       <input
         id="option-2"
-        type="text"
-        placeholder={objeto.option2}
+        type="tel"
+        placeholder={"Telefone"}
         required
-        onChange={(e) => setOption2([e.target.value, objeto.option2])}
+        onChange={(e) => setPhone(e.target.value)}
       />
 
       <input
         id="option-3"
-        type="text"
-        placeholder={objeto.option3}
+        type="email"
+        placeholder={"Email"}
         required
-        onChange={(e) => setOption3([e.target.value, objeto.option3])}
+        onChange={(e) => setEmail(e.target.value)}
       />
 
       <textarea
         id="option-4"
-        placeholder={objeto.option4}
+        placeholder={"Mensagem"}
         required
-        onChange={(e) => setOption4([e.target.value, objeto.option4])} />
+        onChange={(e) => setMessage(e.target.value)}
+      />
 
       <Button type="submit" Width="108px" Height="42px" text="Enviar" />
     </form>
-  )
+  );
 };
 
 export default ContactForm;
